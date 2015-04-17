@@ -4,14 +4,14 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.3'
+        classpath 'com.android.tools.build:gradle:1.1.0'
     }
 }
 
 apply plugin: 'android'
 
 dependencies {
-    androidTestCompile project(':DaoCore')
+    compile project(':DaoGenerator')
 }
 
 android {
